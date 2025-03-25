@@ -32,7 +32,7 @@ body {
 header {
   background-color: var(--midnight-blue);
   text-align: center;
-  padding: 1rem;
+  padding: 0rem;
   color: white;
 }
 
@@ -58,6 +58,7 @@ nav ul {
   justify-content: center;
   background-color: var(--champagne-gold);
   list-style: none;
+  width: 100%;
 }
 
 nav li a {
@@ -97,10 +98,6 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-.basket {
-  background-color: var(--olive-green);
-}
-
 .gallery-grid {
   display: grid;
   gap: 1rem;
@@ -129,6 +126,7 @@ figcaption {
 .button-wrapper {
   text-align: center;
   margin-top: 1.5rem;
+  width: 100%;
 }
 
 .button {
@@ -139,6 +137,7 @@ figcaption {
   border-radius: 0.3rem;
   font-weight: bold;
   display: inline-block;
+  width: 100%;
 }
 
 footer {
